@@ -1,1 +1,119 @@
 main.scss
+/*CORES ATENTO*/
+$color-orange:#FF8029;
+$color-blue:#005589;
+$color-blue-white:#5fa2db;
+$color-grey:#BDBDBD;
+
+/*CAIXA DE ATIVIDADES*/
+#icon-boxes {
+    margin: 0 auto;
+    margin-right: 5%;
+    margin-left: 9.5%;
+    width: 85%;
+
+    .info-header {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .center-div {
+        background-color: color-grey;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+#sidebar {
+    background-color: color-blue;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width: 60px;
+    overflow: hidden;
+    -webkit-transition: width .05s linear;
+    transition: width .05s linear;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    z-index: 1000;
+
+    li {
+        position: relative;
+        display: block;
+        width: 250px;
+    }
+    
+    li>a {
+        position: relative;
+        display: table;
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-family: arial;
+        font-size: 14px;
+        text-decoration: none;
+        -webkit-transform: translateZ(0) scale(1, 1);
+        -webkit-transition: all .1s linear;
+        transition: all .1s linear;
+    
+    }
+
+    .fa {
+        position: relative;
+        display: block;
+        width: 60px;
+        text-align: center;
+        font-size: 3em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    a {
+        position: relative;
+        display: table;
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-family: arial;
+        font-size: 14px;
+        text-decoration: none;
+        -webkit-transform: translateZ(0) scale(1, 1);
+        -webkit-transition: all .1s linear;
+        transition: all .1s linear;
+    
+    }
+
+    .nav-text {
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+        width: 190px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    ul.logout {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+    #sidebar:hover,
+    #sidebar.expanded {
+        width: 250px;
+        overflow: visible;
+    }
+
+}
+
+#navbarHeader{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    ul, li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
