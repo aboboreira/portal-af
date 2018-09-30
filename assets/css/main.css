@@ -1,1 +1,135 @@
-main.css
+/*CAIXA DE ATIVIDADES*/
+@font-face {
+  font-family: 'Omnes';
+  src: url("../fonts/omnes-regular-webfont");
+  src: url("../fonts/omnes-semibold-webfont");
+  src: url("../fonts/omnes_medium-webfont");
+  font-weight: bold;
+  font-style: normal; }
+.font-branca {
+  color: #FFFFFF; }
+
+.font-azul {
+  color: #005589; }
+
+.box {
+  background-color: #FF7900; }
+
+.box-header {
+  height: 50px; }
+
+.logo {
+  font-family: "Omnes";
+  margin-left: 25px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #FFFFFF; }
+
+.logo-exp {
+  display: none; }
+
+.nav-text {
+  position: relative;
+  display: none;
+  margin-left: 80px;
+  font-family: "Omnes";
+  font-size: 24px;
+  color: #FFFFFF; }
+
+.sidebar {
+  background-color: #005589;
+  width: 90px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  -webkit-transition: width .05s linear;
+  transition: width .05s linear;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  z-index: 1000; }
+  .sidebar ul {
+    left: 0;
+    bottom: 0;
+    padding: 0px; }
+  .sidebar li {
+    position: relative;
+    display: block;
+    list-style-type: none;
+    margin-bottom: 100px; }
+    .sidebar li:hover .fa, .sidebar li:hover .nav-text {
+      color: #FF7900; }
+  .sidebar i {
+    position: absolute; }
+  .sidebar li > a {
+    position: relative;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear; }
+  .sidebar .fa {
+    width: 60px;
+    text-align: center;
+    font-size: 3em;
+    color: #FFFFFF; }
+  .sidebar a {
+    position: relative;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-transform: translateZ(0) scale(1, 1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear; }
+  .sidebar:hover {
+    width: 250px; }
+    .sidebar:hover .nav-text {
+      display: flex; }
+    .sidebar:hover .logo {
+      display: none;
+      margin-left: 100px; }
+    .sidebar:hover .logo-exp {
+      display: flex;
+      color: #FFFFFF;
+      font-family: "Omnes";
+      font-size: 20px;
+      margin-left: 50px; }
+  .sidebar .color-blue {
+    color: red; }
+
+#icon-boxes {
+  margin: 0 auto;
+  margin-right: 5%;
+  margin-left: 10%;
+  width: 85%; }
+  #icon-boxes .info-header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; }
+  #icon-boxes .center-div {
+    background-color: fundo;
+    margin: 0 auto;
+    text-align: center; }
+
+.nav-link {
+  background-color: fundo; }
+
+#navbarHeader {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+  #navbarHeader ul, #navbarHeader li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+
+/*# sourceMappingURL=main.css.map */
